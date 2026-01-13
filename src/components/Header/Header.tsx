@@ -18,17 +18,17 @@ const Header: React.FC = () => {
 
         {/* Navigation */}
         <nav className="hidden lg:flex items-center gap-8">
-          <a href="/" className="text-white text-sm font-medium hover:text-primary-blue transition-colors">
+          <a href="/" className="text-white uppercase text-sm font-medium hover:text-primary-blue transition-colors">
             Home
           </a>
-          <a href="/about" className="text-neutral-gray text-sm font-medium hover:text-white transition-colors">
+          <a href="/about" className="text-neutral-gray uppercase text-sm font-medium hover:text-white transition-colors">
             About Us
           </a>
-          <button className="flex items-center gap-1 text-neutral-gray text-sm font-medium hover:text-white transition-colors">
+          <button className="flex items-center gap-1 text-neutral-gray uppercase text-sm font-medium hover:text-white transition-colors">
             Services
             <ChevronDown className="w-4 h-4" />
           </button>
-          <a href="/pricing" className="text-neutral-gray text-sm font-medium hover:text-white transition-colors">
+          <a href="/pricing" className="text-neutral-gray uppercase text-sm font-medium hover:text-white transition-colors">
             Pricing
           </a>
         </nav>
