@@ -6,7 +6,7 @@ import plumberImage from '@/assets/images/plumber.png';
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative bg-gradient-to-br from-primary-navy via-primary-navy-light to-primary-navy min-h-[600px] overflow-hidden">
+    <section className="relative bg-gradient-to-br from-primary-navy via-primary-navy-light to-primary-navy min-h-[400px] lg:min-h-[600px] overflow-hidden">
       {/* Background image with blur and opacity */}
       <div className="absolute inset-0 opacity-20">
         <div 
@@ -30,22 +30,22 @@ const Hero: React.FC = () => {
         </div>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 py-16 flex items-center justify-between gap-12">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 py-12 lg:py-16 flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-12">
         {/* Left content */}
-        <div className="flex-1 max-w-2xl">
-          <h1 className="text-6xl lg:text-7xl font-bold text-white leading-tight mb-4">
+        <div className="flex-1 max-w-2xl text-center lg:text-left">
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-tight mb-4">
             Reliable Plumbing<br />Services
           </h1>
           
           {/* Blue accent line */}
-          <div className='flex gap-2 items-center mb-4'>
+          <div className='flex gap-2 items-center mb-4 justify-center lg:justify-start'>
             <div className="w-1 h-8 bg-primary-blue"></div>
-            <p className="text-2xl text-neutral-gray font-light">
+            <p className="text-xl md:text-2xl text-neutral-gray font-light">
               Your Trusted Local Plumber
             </p>
           </div>
           
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-col sm:flex-row flex-wrap gap-4 justify-center lg:justify-start">
             <Button variant="default" size="lg" className="font-bold text-sm tracking-wider">
               REQUEST SERVICE
             </Button>
