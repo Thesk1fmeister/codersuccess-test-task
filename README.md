@@ -1,3 +1,100 @@
+# CoderSuccess - Plumbing Services Website
+
+A modern, responsive plumbing services website built with React, TypeScript, Vite, and Tailwind CSS.
+
+## Features
+
+- 🎨 Modern UI with Tailwind CSS
+- 📱 Fully responsive design
+- 🎭 Animated loading screen with Framer Motion
+- 🧭 React Router for navigation
+- 🎯 Custom service cards and components
+- 📦 Path aliases for clean imports (`@/`)
+
+## Prerequisites
+
+Before you begin, ensure you have installed:
+- **Node.js** (version 18.x or higher recommended)
+- **npm** (comes with Node.js)
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Thesk1fmeister/codersuccess-test-task.git
+cd CoderSuccess
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the development server
+
+```bash
+npm run dev
+```
+
+The application will start at `http://localhost:5173/` (or another port if 5173 is in use).
+
+### 4. Build for production
+
+```bash
+npm run build
+```
+
+The build output will be in the `dist/` folder.
+
+### 5. Preview production build
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+```
+src/
+├── assets/          # Images, icons, and other static files
+├── components/      # Reusable React components
+│   ├── Button/
+│   ├── Header/
+│   ├── Hero/
+│   ├── Loader/
+│   ├── ServiceCard/
+│   └── Services/
+├── pages/          # Page components
+│   ├── Home/
+│   └── ComingSoon/
+├── router/         # React Router configuration
+├── utils/          # Utility functions
+├── index.css       # Global styles & Tailwind imports
+├── App.tsx         # Main app component with loader
+└── main.tsx        # Application entry point
+```
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## Technologies Used
+
+- **React 18** - UI library
+- **TypeScript** - Type safety
+- **Vite** - Build tool and dev server
+- **Tailwind CSS** - Utility-first CSS framework
+- **React Router DOM** - Client-side routing
+- **Framer Motion** - Animation library
+- **Lucide React** - Icon library
+
+---
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -71,4 +168,3 @@ export default defineConfig([
   },
 ])
 ```
-# codersuccess-test-task
